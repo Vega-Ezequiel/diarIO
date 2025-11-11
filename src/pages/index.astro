@@ -1,7 +1,27 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Button } from '../components/ui/button';
 ---
 
 <Layout>
-	
+	<main class="flex min-h-screen flex-col items-center justify-center gap-8 px-4 text-center">
+		<section class="space-y-4">
+			<p class="text-sm uppercase tracking-[0.4em] text-muted-foreground">DiarIO</p>
+			<h1 class="text-balance text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+				Shadcn UI + Tailwind funcionando en Astro
+			</h1>
+			<p class="mx-auto max-w-2xl text-lg text-muted-foreground">
+				Echa un vistazo al componente de botón para confirmar que la configuración de Tailwind y Shadcn UI quedó lista.
+			</p>
+		</section>
+		<div class="flex flex-wrap items-center justify-center gap-4">
+			<Button client:load>Primario</Button>
+			<Button client:load variant="secondary">
+				Secundario
+			</Button>
+			<Button client:load variant="outline">
+				Outline
+			</Button>
+		</div>
+	</main>
 </Layout>
