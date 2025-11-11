@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@astrojs/node": "^9.5.0",
-    "astro": "^5.15.5"
+    "astro": "^5.15.5",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@vitest/ui": "^4.0.8",
