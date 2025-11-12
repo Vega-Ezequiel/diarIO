@@ -1,4 +1,4 @@
-import type { Set, Get } from "../types";
+import type { Set } from "../types";
 import type { VisualActionsContainer } from "./types";
 
 const setLoading = (set: Set) => (loading: boolean): void => {

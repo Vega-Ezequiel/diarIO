@@ -12,7 +12,7 @@ export const DarIOStore = create<Store>()(
     {
       name: "diarIO-store",
       storage: createJSONStorage(() => sessionStorage),
-      partialize: (state) => ({})
+      partialize: (_state) => ({})
     }
   )
 );

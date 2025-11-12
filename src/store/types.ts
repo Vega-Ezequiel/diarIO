@@ -1,4 +1,3 @@
-import type { StoreApi } from 'zustand';
 import type { VisualSlice } from './visual/types';
 
 export type Store = VisualSlice;
