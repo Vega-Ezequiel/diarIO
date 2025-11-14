@@ -1,7 +1,11 @@
-import type { VisualState } from './interface';
+import type { VisualState } from "./interface";
 
 const initialState: VisualState = {
-    isLoading: false
-}
+  isLoading: false,
+  snackbar: {
+    type: "info",
+    message: "",
+  },
+};
 
 export default initialState;
